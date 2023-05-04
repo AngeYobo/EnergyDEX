@@ -1,0 +1,41 @@
+# Haskell-specific ignores
+dist/
+dist-newstyle/
+cabal.project.local
+.stack-work/
+
+# Editor/IDE ignores
+*.swp
+*.bak
+*~
+
+# Generated files
+*.hi
+*.o
+*.p_hi
+*.p_o
+*.dyn_hi
+*.dyn_o
+*.hi-boot
+*.o-boot
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+*.mix
+
+# Ignore everything in the .idea/ directory except the workspace.xml and tasks.xml files
+.idea/*
+!.idea/workspace.xml
+!.idea/tasks.xml
+
+# Ignore everything in the frontend/node_modules/ directory
+frontend/node_modules/
+
+# Ignore everything in the contracts/build/ directory
+contracts/build/
+
+# Ignore any compiled binaries
+*.exe
+*.out
