@@ -1,18 +1,30 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Haskell-specific ignores
+dist/
+dist-newstyle/
+cabal.project.local
+.stack-work/
 
-# Other files and folders
-.settings/
+# Editor/IDE ignores
+*.swp
+*.bak
+*~
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Generated files
+*.hi
+*.o
+*.p_hi
+*.p_o
+*.dyn_hi
+*.dyn_o
+*.hi-boot
+*.o-boot
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+*.mix
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Ignore any compiled binaries
+*.exe
+*.out
