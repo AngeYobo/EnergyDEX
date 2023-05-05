@@ -1,7 +1,7 @@
 # EnergyDEX
 EnergyDEX is a decentralized exchange built on the Cardano blockchain that facilitates trading of energy derivatives and tokens. The exchange aims to provide a secure and transparent platform for energy market participants to trade energy products without the need for intermediaries. EnergyDEX leverages the security and scalability of the Cardano blockchain to provide a decentralized and trustless platform for energy trading.
 
-Architecture
+# Architecture
 EnergyDEX is composed of several components:
 
 backend_infrastructure: This folder contains the backend infrastructure code for EnergyDEX. It includes the necessary code for interacting with the Cardano blockchain, managing user wallets, and processing transactions.
@@ -24,7 +24,7 @@ It includes the necessary code for user authentication, secure data storage, and
 token: This folder contains the code for the native token used on EnergyDEX. 
 The token is used for payment of transaction fees, and for participation in the governance model.
 
-Development
+# Development
 EnergyDEX is developed using the Plutus programming language and is built on the Cardano blockchain. 
 Developers interested in contributing to EnergyDEX can follow these steps:
 
@@ -40,11 +40,11 @@ Deploy the contracts to the Cardano blockchain using the Cardano CLI.
 
 Test the decentralized exchange by creating orders and executing trades.
 
-License
+# License
 EnergyDEX is open source and is licensed under the MIT License. 
 Developers are free to use, modify, and distribute the code for any purpose. 
 See the LICENSE file for more information.
 
-Contact
+# Contact
 If you have any questions or suggestions about EnergyDEX, please contact us at team@energydex.com. 
 We welcome any feedback and are always looking for ways to improve the platform.
